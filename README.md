@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL:(https://stellar-lolly-d3dbe9.netlify.app)
 
 ## My process
 
@@ -47,5 +47,5 @@ echniques you found useful that you want to refine and perfect.
 ## Author
 
 - Website - [Oluwatimilehin](https://www.your-site.com)
-- Frontend Mentor - [@Phoenix-0077](https://www.frontendmentor.io/profile/Phoenix-0077)
+- Frontend Mentor - [@timilehindada](https://www.frontendmentor.io/profile/timilehindada)
 - Twitter - [@timilehin_dada0](https://www.twitter.com/timilehin_dada0)
