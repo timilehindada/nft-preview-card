@@ -1,0 +1,98 @@
+@font-face {
+    font-family: myOutfit;
+    src: url(Outfit-VariableFont_wght.ttf);
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.main-card{
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 20px;
+    width: 22vw;
+    font-family: myOutfit;
+}
+#logo{
+    height: 22vw;
+    width: 22vw;
+}
+.view-div{
+    height: 300px;
+    width: 300px;
+    background-color: hsl(178, 100%, 50%);
+    position: absolute;
+    top: 29px;
+    opacity: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-div:hover{
+    opacity: .5;
+}
+h3{
+    color: hsl(0, 0%, 100%);
+}
+h3:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time p{
+    margin-left: -90px;
+}
+.time p:first-of-type{
+    color: hsl(178, 100%, 50%);
+}
+p:last-of-type{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+b{
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+b:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.info{
+    border-top: hsl(215, 32%, 27%) 1px solid;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.info img{
+    height: 50px;
+    width: 50px;
+}
+.info p{
+    margin-left: 15px;
+}
+
+/*Responsive code for mobile*/
+@media screen and (max-width: 375px) {
+    .main-card{
+        width: 73vw;
+    }
+    #logo{
+        height: 73vw;
+        width: 73vw;
+    }
+    .view-div{
+        height: 73vw;
+        width: 73vw;
+    }
+    .time p{
+        margin-left: -50px;
+    }
+}
